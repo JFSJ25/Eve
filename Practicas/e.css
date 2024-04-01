@@ -1,0 +1,50 @@
+
+.calculadora {
+    width: 300px;
+    margin: 20px auto;
+    border: 2px solid black;
+    padding: 10px;
+  }
+  
+  .pantalla {
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    text-align: right;
+    background-color: white;
+    margin-bottom: 10px;
+  }
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 5px;
+  }
+  
+  button {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .numero {
+    background-color: lightgray;
+  }
+  
+  .operador {
+    background-color: orange;
+  }
+  
+.decimal {
+    background-color: lightgreen;
+  }
+  
+  .borrar {
+    background-color: red;
+  }
+  
+  .igual {
+    background-color: blue;
+    color: white;
+    grid-column: span 2;
+  }

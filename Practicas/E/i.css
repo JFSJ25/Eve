@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #d1d1d1;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1{
+    margin: 20px;
+}
+
+.galeria{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.galeria img{
+    width: 150px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.galeria div{
+    background-color: white;
+    width: 200px;
+    transition: transform .2s ease;
+}
+
+.galeria div:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.zona{
+    margin: auto;
+    width: 200px;
+    height: 250px;
+    background-color: white;
+}
+
+.zona img{
+    width: 200px;
+    height: 250px; 
+}

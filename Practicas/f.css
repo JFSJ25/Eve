@@ -1,0 +1,15 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+
+input, textarea, button{
+    width: 50%;
+    margin: 5px;
+    border: 2px solid #cececebd;
+    /* background-color: ; */
+}

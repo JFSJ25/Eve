@@ -1,0 +1,1 @@
+let caja = document.querySelector(".caja");
